@@ -12,7 +12,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"css-build": "node-sass --omit-source-map-url src/css/styles.scss src/css/styles.css",
+		"css-build": "node-sass --omit-source-map-url src/css/styles.scss static/css/styles.css",
 		"css-watch": "pnpm run css-build -- --watch",
 		"start": "pnpm run css-watch"
 	},
