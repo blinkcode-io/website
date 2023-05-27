@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  blinkcode_website:
+    image: blinkcode-io/website:latest
+    build: .
+    restart: unless-stopped
+    container_name: blinkcode_website
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
