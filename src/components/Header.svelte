@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<nav class="navbar" aria-label="main navigation">
+<nav class="navbar is-fixed-top is-primary" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item" href="https://bulma.io">
 			<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="" />
@@ -42,7 +42,7 @@
 		<div class="navbar-end">
 			<div class="navbar-item">
 				<div class="buttons">
-					<a class="button is-primary">
+					<a class="button is-secondary">
 						<strong>Sign up</strong>
 					</a>
 					<a class="button is-light"> Log in </a>
