@@ -11,18 +11,23 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"css-build": "node-sass --omit-source-map-url src/css/styles.scss src/css/styles.css",
+		"css-watch": "pnpm run css-build -- --watch",
+		"start": "pnpm run css-watch"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-node": "^1.2.4",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
-		"eslint": "^8.28.0",
+		"eslint": "^8.41.0",
 		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-svelte": "^2.26.0",
+		"eslint-plugin-svelte3": "^4.0.0",
 		"lefthook": "^1.4.1",
+		"node-sass": "^9.0.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
 		"svelte": "^3.54.0",
@@ -32,5 +37,8 @@
 		"vite": "^4.3.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"bulma": "^0.9.4"
+	}
 }
