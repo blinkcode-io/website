@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Carousel from 'svelte-carousel';
 </script>
 
 <section class="section is-medium">
@@ -71,3 +72,23 @@
 		</div>
 	</div>
 </section>
+<Carousel>
+	<section class="hero is-medium is-link">
+		<div class="hero-body">
+			<p class="title">Medium hero</p>
+			<p class="subtitle">Medium subtitle</p>
+		</div>
+	</section>
+	<section class="hero is-medium is-black">
+		<div class="hero-body">
+			<p class="title">Medium hero</p>
+			<p class="subtitle">Medium subtitle</p>
+		</div>
+	</section>
+	<section class="hero is-medium is-danger">
+		<div class="hero-body">
+			<p class="title">Medium hero</p>
+			<p class="subtitle">Medium subtitle</p>
+		</div>
+	</section>
+</Carousel>
