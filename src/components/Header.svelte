@@ -24,8 +24,8 @@
 		</a>
 	</div>
 
-	<div id="navbarBasicExample" class="navbar-menu has-text-centered">
-		<div class="navbar-start">
+	<div class="navbar-menu">
+		<div class="navbar-start m-auto">
 			<a class="navbar-item"> Home </a>
 			<a href="/about" class="navbar-item"> About </a>
 			<a href="/services" class="navbar-item"> Services </a>
