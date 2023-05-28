@@ -5,10 +5,8 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<Header />.
 <Banner />
 <InfoSection />
-<Footer />
 
 <style>
 </style>
