@@ -5,7 +5,10 @@
 	<div class="hero-body">
 		<div class="">
 			<p class="title">Building high-quality apps with best practices.</p>
-			<p class="subtitle">Professional software development, by experienced professionals. We aim to transform lives through cross-cutting solutions tech solutions.</p>
+			<p class="subtitle">
+				Professional software development, by experienced professionals. We aim to transform lives
+				through cross-cutting solutions tech solutions.
+			</p>
 		</div>
 	</div>
 </section>
