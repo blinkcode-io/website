@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<section class="hero is-primary is-halfheight mt-0">
+<section class="hero is-primary is-fullheight mt-0">
 	<div class="hero-body">
 		<div class="">
 			<p class="title">Building high-quality apps with best practices.</p>
