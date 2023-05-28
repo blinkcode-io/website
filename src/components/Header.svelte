@@ -26,7 +26,7 @@
 
 			<a class="navbar-item"> About </a>
 			<a class="navbar-item"> Services </a>
-			<a class="navbar-item"> Contact </a>
+			<a href="/contact" class="navbar-item"> Contact </a>
 
 			<div class="navbar-item has-dropdown is-hoverable">
 				<a class="navbar-link"> Featured </a>
