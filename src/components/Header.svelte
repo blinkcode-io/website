@@ -23,7 +23,6 @@
 	<div id="navbarBasicExample" class="navbar-menu">
 		<div class="navbar-start">
 			<a class="navbar-item"> Home </a>
-
 			<a href="/about" class="navbar-item"> About </a>
 			<a href="/services" class="navbar-item"> Services </a>
 			<a href="/contact" class="navbar-item"> Contact </a>
@@ -42,14 +41,10 @@
 		</div>
 
 		<div class="navbar-end">
-			<div class="navbar-item">
-				<div class="buttons">
-					<a class="button is-secondary">
-						<strong>Sign up</strong>
-					</a>
-					<a class="button is-light"> Log in </a>
-				</div>
-			</div>
+			<a class="navbar-item">
+				<strong>Sign up</strong>
+			</a>
+			<a class="navbar-item"> Log in </a>
 		</div>
 	</div>
 </nav>
