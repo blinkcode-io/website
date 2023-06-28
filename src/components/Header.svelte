@@ -29,6 +29,7 @@
 			<a class="navbar-item"> Home </a>
 			<a href="/about" class="navbar-item"> About </a>
 			<a href="/services" class="navbar-item"> Services </a>
+			<a href="/blog" class="navbar-item"> Blog </a>
 			<a href="/contact" class="navbar-item"> Contact </a>
 
 			<div class="navbar-item has-dropdown is-hoverable">
