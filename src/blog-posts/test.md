@@ -4,9 +4,10 @@
 
 ### Third Heading
 
-```python
-def test():
-    print("Hello World")
+```javascript
+async function Hello() {
+	console.log('Hello World');
+}
 ```
 
 This is a test blog post.
