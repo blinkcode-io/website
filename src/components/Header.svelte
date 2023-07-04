@@ -26,7 +26,7 @@
 
 	<div class="navbar-menu">
 		<div class="navbar-start m-auto">
-			<a class="navbar-item"> Home </a>
+			<a href="/home" class="navbar-item"> Home </a>
 			<a href="/about" class="navbar-item"> About </a>
 			<a href="/services" class="navbar-item"> Services </a>
 			<a href="/blog" class="navbar-item"> Blog </a>
@@ -40,6 +40,7 @@
 					<a class="navbar-item"> Tips and Tricks </a>
 					<a class="navbar-item"> Meet the Team</a>
 					<hr class="navbar-divider" />
+					0
 					<a class="navbar-item"> Products </a>
 				</div>
 			</div>
