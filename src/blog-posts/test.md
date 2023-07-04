@@ -18,3 +18,9 @@ This is a test blog post.
 1. First item
 2. Second item
 3. Third item
+
+### Today is cold and rainy.
+
+### Where are you Coding from
+
+Lets talk websites <br>
